@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #F5E1C0;
+}
+/* estilo circulos decorativos */
+
+.circles {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.one {
+    background-color:#834409;
+}
+
+.two {
+    background-color: beige;
+}
+
+.three {
+    background-color: #C19A6B;
+}
+/* estilos navbar superior */
+.nav-bar{
+    background-color: #351a12f2;
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.upper{
+    color: #C19A6B;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.upper:hover{
+    font-size: 14px; transition: 0.3s;
+}
+
+.ifhere{
+    color: #3f2a17;
+    background-color:#C19A6B ;
+    padding: 4px 15px;
+    border-radius: 3px;
+}
+
+/* estilos logo header AROMAS*/
+.encabezado{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.encabezado img{
+    width: 8vw;
+    height: 15vh;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.encabezado h1{
+    font-family: "Playfair Display", serif;
+    font-size: 10vh;
+    color:#492d12;
+}
+/*  estilos imagen main*/
+
+.aromas img{
+    width: 100%;
+}
+/* main */
+.preguntas{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px;
+    border: 3px #C19A6B outset;
+}
+.soy{
+    color: #362210f3
+}
+.encontrar{
+    color: #573a08f2;
+}
+
+/* estilos entradas */
+.entradas{
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-left: 10px;
+    
+}
+
+.iconos a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #351a12f2;
+}
+
+.iconos a img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.iconos img:hover{
+ height: 210px;
+ width: 210px;
+ transition: 0.3s;
+}
+/* -------------footer------------- */
+footer{
+    height: 15vh;
+    background-color: #492d12;
+    padding-top: 10px;
+}
+
+.fin{
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fin p{
+    font-size: 12px;
+    text-decoration: none;
+    color: #C19A6B;
+    margin-top: 10px;
+    
+}
+.fin a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.fin a  img{
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    
+
+}
+/* ----------------------------------------------------------HISTORIA DEL CAFE----------------------------------------- */
+.historia{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.parrafos{
+    padding: 15px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    border-bottom: 2px black solid;
+    align-items: center;
+}
+.parrafos img{
+    height: 250px;
+    width: 70%;
+}
+.vangohg, .expansion{
+    margin-left: 50px !important;
+}
+.expansion, .actualidad{
+    height: 300px !important;
+    width: 80% !important;
+}
+/* -------------------------------------------------METODOS----------------------------------- */
+.sectionmetodos{
+    text-align: center;
+    width: 80%;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.imgmetodos{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+.imgmetodos:hover{
+    height: 250px;
+    width: 280px;
+    transition: 0.3s;
+}
+.iconosmetodos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+.iconosmetodos div a{
+    text-decoration: none;
+    color: #3f2a17;
+}
+/* --------------------------------------------------INMERSION----------------------------- */
+.grueso img{
+    height: 40vh;
+    width: 25vw;
+    border-radius: 10px;
+}
+.grueso{
+    padding: 5px;
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 10px;
+}
+.inmersion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.volver{
+    border-top: 2px #492d12 solid;
+    text-align: center;
+    padding: 5px;
+}
+.volver a{
+    text-decoration: none;
+    color: #492d12;
+}
+.volver a:hover{
+    font-size: larger;
+    transition: 0.3s;
+}
+/* ---------------------------------------GOTEO------------------------ */
+.goteo{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    text-align: center; 
+}
+.filtrados img{
+    height: 40vh;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.filtrados{
+    padding: 5px;
+    text-align: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 10px; 
+}
+
+.medio{
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
