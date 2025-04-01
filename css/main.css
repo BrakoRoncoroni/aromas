@@ -7,6 +7,13 @@
 }
 body{
     background-color: #F5E1C0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main{
+    flex-grow: 1;
 }
 /* estilo circulos decorativos */
 
@@ -134,9 +141,11 @@ body{
 }
 /* -------------footer------------- */
 footer{
-    height: 15vh;
+    min-height: 60px;
     background-color: #492d12;
-    padding-top: 10px;
+    padding-top: 15px;
+    margin-top: 10vh;
+    padding-bottom: 5px;
 }
 
 .fin{
@@ -241,8 +250,10 @@ align-items: center;
 }
 
 .volver{
+    height: 5px;
     border-top: 2px #492d12 solid;
     text-align: center;
+    align-items: center;
     padding: 5px;
 }
 .volver a{
@@ -280,27 +291,56 @@ align-items: center;
 }
 /* -------------------CONTACTO-------------------- */
 .contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+.divcontacto{
+    border-top: 2px #492d12 solid;
+    padding-top: 30px;
     text-align: center;
 }
 .contactoredes{
-    border-top: 2px #492d12 solid;
     margin-top: 5px;
     display: flex;
     justify-content: space-around;
-    height: 55vh;
     align-items: center;
-}
-.contactoredes a{
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #492d12;
-    margin-bottom: 60px;
+    margin-top: 50px;
 }
 .contactoredes a img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
+}
+.contactoredes a img:hover{
+    height: 55px;
+    width: 55px;
+    transition: 0.3s;
+}
+/* --------------------------------------TOSTADO---------------------------------- */
+.iconostostado{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    color: #3f2a17;
+}
+.imgtostado{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+.titulotostado{
+    font-size: larger;
+    font-style:italic;
+}
+.textotostado{
+    margin-top: 15px;
+    margin-left: 20%;
+    width: 60%;
 }
