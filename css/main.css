@@ -385,16 +385,30 @@ align-items: center;
     width: 60%;
 }
 /* -------------------------------------Experiencias------------------------------------------------------------- */
-
-
+.mainexp{
+    margin-top: 3%;
+}
 .barralat{
     background-color: #834409;
     color: beige;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
 } 
 .mainexp{
     display: grid;
     grid-template-columns: 10% 1fr;
     flex-grow: 1;
+}
+.beans-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%; 
+    gap: 30px;
+    margin-bottom: 5%;
 
+}
+.beans{
+    box-shadow: 2px 5px 20px black;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
 }
