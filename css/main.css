@@ -392,10 +392,11 @@ align-items: center;
     background-color: #834409;
     color: beige;
     border-radius: 0px 5px 5px 0px;
+    padding: 5%;
 } 
 .mainexp{
     display: grid;
-    grid-template-columns: 10% 1fr;
+    grid-template-columns: 12% 1fr;
     flex-grow: 1;
 }
 .beans-container{
@@ -404,11 +405,33 @@ align-items: center;
     margin-left: 5%; 
     gap: 30px;
     margin-bottom: 5%;
-
-}
+}   
 .beans{
+    display: flex;
+    flex-direction: column;
+    position: relative;
     box-shadow: 2px 5px 20px black;
-    height: 400px;
     width: 300px;
     border-radius: 10px;
+    padding: 8%;
+    gap: 5%;
+}
+.beans img{
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.beans a{
+    margin-top: 5px;
+    background-color:#593413;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5px;
+    color: #C19A6B;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+.beans a:hover{
+    background-color:#834409;
+    color: #c28f51; ;
+    transition: 0.5s;
 }
