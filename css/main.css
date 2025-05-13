@@ -545,6 +545,7 @@ align-items: center;
 .iconosmetodos{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 /* metodos - goteo  */
 .goteo, .inmersion, .presion{
