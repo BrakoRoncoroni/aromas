@@ -53,7 +53,9 @@ main{
     align-items: center;
     height: 30px;
 }
-
+.upmobile{
+    display: none;
+}
 .upper{
     color: #C19A6B;
     text-decoration: none;
@@ -253,11 +255,7 @@ align-items: center;
     border-radius: 10px;
     margin-bottom: 2vh;
 }
-.imgmetodos:hover{
-    height: 250px;
-    width: 280px;
-    transition: 0.3s;
-}
+
 .iconosmetodos{
     display: flex;
     justify-content: space-around;
@@ -268,6 +266,11 @@ align-items: center;
 .iconosmetodos div a{
     text-decoration: none;
     color: #3f2a17;
+}
+.imgmetodos:hover{
+    height: 250px;
+    width: 280px;
+    transition: 0.3s;
 }
 /* --------------------------------------------------INMERSION----------------------------- */
 .grueso img{
@@ -336,11 +339,11 @@ align-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 .divcontacto{
     border-top: 2px #492d12 solid;
-    padding-top: 30px;
+    padding-top: 5px;
     text-align: center;
 }
 .contactoredes{
@@ -348,7 +351,7 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 4vh;
 }
 .contactoredes a img{
     width: 50px;
@@ -435,10 +438,33 @@ align-items: center;
     color: #c28f51; ;
     transition: 0.5s;
 }
-/* ----------------------MEDIAQUERY-------------------------------------- */
+
+/* ----------------Contacto------------------ */
+.maincontacto{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 15px;
+}
+.fotobrako{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;  
+    margin-left: 30vh;
+}
+.textocontacto{
+    margin-right: 15%;
+}
+/* ------------------------------------------------MEDIAQUERY MOBILE-------------------------------------- */
 
 @media screen and (max-width: 600px){
 /* index */
+.upmobile{
+    display: inline;
+    color: #C19A6B;
+    text-decoration: none;
+    font-size: 13px;
+}
 .upper{
     display:none;
 }
@@ -507,4 +533,70 @@ align-items: center;
     gap: 5%;
     margin-left: 5vh;
 }
+/* Historia */
+.parrafos{
+     display: flex;
+     flex-direction: column;
+}
+.parrafos img{
+    display: none;
+}
+/* metodos */
+.iconosmetodos{
+    display: flex;
+    flex-direction: column;
+}
+/* metodos - goteo  */
+.goteo, .inmersion, .presion{
+display: flex;
+flex-direction: column;
+}
+.imgmetodos{
+    width: 90%;
+}
+
+.goteo div img{
+    width: 95%;
+}
+.inmersion div img{
+    width: 100%;
+}
+.presion div img{
+    width: 95%;
+}
+/* tipos de tostado */
+.iconostostado{
+    display: flex;
+    flex-direction: column;
+}
+.imgtostado{
+    width: 85%;
+}
+.titulotostado{
+    font-style:italic;
+    text-decoration: solid;
+}
+.textotostado{
+    margin-bottom: 20px;
+}
+/* contacto */
+.maincontacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+}
+.fotobrako{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;  
+    margin: 0;
+}
+.textocontacto{
+text-align: center;
+margin: 0;
+}
+
 }
