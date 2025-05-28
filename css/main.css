@@ -530,7 +530,10 @@ align-items: center;
     flex-direction: column;
     box-shadow: 2px 5px 20px black;
     border-radius: 10px;
+    padding: 8%;
+    gap: 5%;
     margin-left: 5vh;
+    overflow: hidden;
 }
 /* Historia */
 .parrafos{
