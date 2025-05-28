@@ -530,7 +530,6 @@ align-items: center;
     flex-direction: column;
     box-shadow: 2px 5px 20px black;
     border-radius: 10px;
-    gap: 5%;
     margin-left: 5vh;
 }
 /* Historia */
