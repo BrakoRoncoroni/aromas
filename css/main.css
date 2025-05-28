@@ -268,8 +268,8 @@ align-items: center;
     color: #3f2a17;
 }
 .imgmetodos:hover{
-    height: 250px;
-    width: 280px;
+    height: 43vh;
+    width: 23vw;
     transition: 0.3s;
 }
 /* --------------------------------------------------INMERSION----------------------------- */
