@@ -416,6 +416,7 @@ align-items: center;
     box-shadow: 2px 5px 20px black;
     width: 300px;
     border-radius: 10px;
+    height: auto;
     padding: 8%;
     gap: 5%;
 }
@@ -529,7 +530,6 @@ align-items: center;
     flex-direction: column;
     box-shadow: 2px 5px 20px black;
     border-radius: 10px;
-    padding: 8%;
     gap: 5%;
     margin-left: 5vh;
 }
